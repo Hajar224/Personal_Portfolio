@@ -1,0 +1,111 @@
+/* -- 01 TYPOGRAPHY SYSTEM
+
+- FONT SIZES (PX):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- FONT WEIGHTS
+Dafault: 400
+500
+600
+700
+
+- LINE HEIGHT 
+Default: 1
+small: 1.05
+meduim:1.2
+paragraph default: 1.6
+Large : 1.8
+
+
+
+-- 02 COLORS
+- Primary: 
+- Tints: 
+- Shades:
+- Accents:
+- Greys:#f1f3f5
+ 
+
+
+
+--- 05 SHADOWS
+
+
+
+--- 06 BORDER REDUIS
+default:
+meduim:
+
+--- 07 WHITE SPACES
+--letter spacing(px) :
+
+-- SPACING SYSTEMS (PX)
+2 / 4 / 8 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+}
+html{
+    /* font-size: 10px;   --------     Means that 1rem = 10px not 16px */ 
+    /* 10px / 16px = 0.625 = 62.5%* ---------- Use Percentage */
+    font-size: 62.5%;         /*  Means that 1rem = 10px */  
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666;
+    line-height: 1;
+    background-color: #fff0f6;
+}
+/*************************MAIN COMPONENTS***********************/
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.heading-primary, .heading-secondary{
+    letter-spacing: -0.5px;
+}
+.heading-primary{
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 1.4rem;
+}
+.heading-secondary{
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+}
+.heading-tertiary{
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+.heading-text{
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+.span{
+    color: #f783ac;
+}
+.heading-description{
+    font-size: 1.5rem;
+    color: #555;
+    letter-spacing: 0.6;
+    line-height: 1.4;
+    margin-bottom: 3.6rem;
+}
+
+
+
+
+

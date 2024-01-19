@@ -1,0 +1,106 @@
+/* 1rem = 1em = 16px */
+/*****************Below 1344px (Small Laptops)************************/
+@media (max-width: 84em){
+    .about{
+        max-width: 120rem;
+        padding:4.8rem 4.8rem 9.6rem 4.8rem;
+    }
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+    .omnifood, .portfolio, .weather{
+        display: grid;
+        justify-self: center;
+    }
+    .project-img{
+        width: 32rem;
+        height: 22rem;
+    }
+    .description{
+        font-size: 3.6rem;
+    }
+}
+
+/*****************Below 1200px (Landscape Tablets)************************/
+@media (max-width: 75em){
+    /* 9/16 = 0.5625    9px = 56.25% */
+    html{
+        font-size: 56.25%;
+    }
+    .heading-description{
+        font-size: 1.8rem;    
+    }
+}
+/*****************Below 944px  (Tablets)************************/
+@media (max-width: 59em){
+        /* 8 / 16 = 0.5    8px = 50% */
+        html{
+            font-size: 50%;
+        }
+        .about{
+            max-width: 100rem;
+            grid-template-columns: 1fr;
+           /*  padding: 0 8rem; */
+            gap: 6.4rem;
+        }
+        .heading-description{
+            font-size: 1.8rem;
+            line-height: 1.6;
+            text-align: left;
+            margin-bottom: 6.4rem;
+        }
+        .about-img{
+            padding: 0;
+            width:50% ;
+            margin: 0 25rem;
+            border-radius: 9px;
+        }
+        .about-text-box,
+        .about-image-box{
+            text-align: center;
+            justify-content: center;
+        }
+        .heading-primary{
+            font-size: 3.6rem;
+        }
+        .heading-secondary{
+            font-size: 2.4rem;
+        }  
+        .projects-box{
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        .contact{
+            font-size: 2.6rem;
+        }
+        .description{
+            font-size: 3rem;
+        } 
+    }
+/*****************Below 704px (Smaller Tablets) ************************/
+@media (max-width: 44em){
+    .about{
+        max-width: 70rem;
+    }
+    .about-img{
+        margin: 0 17.5rem;
+    }
+
+    .skills-box,
+    .projects-box{
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+    }
+}
+/*****************Below 544px (Phones) ************************/
+@media (max-width: 34em){
+    .about{
+        max-width: 60rem;
+    }
+    .about-img{
+        margin: 0 19.9rem;
+    }
+}
+
+/*****************Below 336px (Galaxy Fold) ************************/
+@media (max-width: 21em){
+}
