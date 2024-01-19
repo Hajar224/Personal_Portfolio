@@ -1,47 +1,4 @@
-/* -- 01 TYPOGRAPHY SYSTEM
 
-- FONT SIZES (PX):
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
-
-- FONT WEIGHTS
-Dafault: 400
-500
-600
-700
-
-- LINE HEIGHT 
-Default: 1
-small: 1.05
-meduim:1.2
-paragraph default: 1.6
-Large : 1.8
-
-
-
--- 02 COLORS
-- Primary: 
-- Tints: 
-- Shades:
-- Accents:
-- Greys:#f1f3f5
- 
-
-
-
---- 05 SHADOWS
-
-
-
---- 06 BORDER REDUIS
-default:
-meduim:
-
---- 07 WHITE SPACES
---letter spacing(px) :
-
--- SPACING SYSTEMS (PX)
-2 / 4 / 8 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Young+Serif&display=swap');
 *{
     margin: 0;
