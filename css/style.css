@@ -107,6 +107,8 @@
     color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.6px;
 }
 .btn:hover,
 .btn:active{
