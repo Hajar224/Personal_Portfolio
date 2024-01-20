@@ -93,6 +93,11 @@
     .about{
         max-width: 60rem;
     }
+    .skills-icon,
+    .projects-icon{
+         width: 3rem;
+         height: 3rem;
+}
     .description{
         font-size: 2.4rem;
     }
